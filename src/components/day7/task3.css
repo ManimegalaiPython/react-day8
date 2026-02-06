@@ -1,0 +1,157 @@
+/* ==========================
+   Container
+========================== */
+.ui3-container {
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+  background: #f0f4f8;
+}
+
+/* ==========================
+   Task 21: Filter List
+========================== */
+.task21-card {
+  background: #ffe4e6;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.task21-card input {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #f472b6;
+  margin-bottom: 10px;
+}
+
+.task21-card ul li {
+  margin-bottom: 5px;
+  padding: 6px 10px;
+  background: #f9a8d4;
+  border-radius: 6px;
+}
+
+/* ==========================
+   Task 22 & 23: Sort List
+========================== */
+.task22-card {
+  background: #dbeafe;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.task22-card button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.task22-card button:hover {
+  background: #2563eb;
+}
+
+.task22-card ul li {
+  margin-bottom: 5px;
+  padding: 6px 10px;
+  background: #93c5fd;
+  border-radius: 6px;
+}
+
+/* ==========================
+   Task 24: Count Filtered Items
+========================== */
+.task24-card {
+  background: #fef3c7;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.task24-card strong {
+  color: #b45309;
+}
+
+/* ==========================
+   Task 25: Reset List
+========================== */
+.task25-card {
+  background: #d1fae5;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.task25-card button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  background: #10b981;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.task25-card button:hover {
+  background: #059669;
+}
+
+/* ==========================
+   Task 26-30: Checkbox List
+========================== */
+.task26-card {
+  background: #ede9fe;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.task26-card ul li {
+  margin-bottom: 5px;
+  padding: 6px 10px;
+  background: #c4b5fd;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task26-card ul li.selected {
+  background: #a78bfa;
+  color: white;
+}
+
+.task26-card button {
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border-radius: 6px;
+  border: none;
+  background: #7c3aed;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.task26-card button:hover:not(:disabled) {
+  background: #5b21b6;
+}
+
+.task26-card button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+.selected-count {
+  display: inline-block;
+  background: #7c3aed;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  margin-left: 10px;
+}

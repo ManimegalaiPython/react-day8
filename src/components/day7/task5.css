@@ -1,0 +1,182 @@
+/* ==========================
+   Container
+========================== */
+.ui5-container {
+  padding: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+}
+
+/* ==========================
+   Card Base Style
+========================== */
+.task-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+
+.task-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #1e3a8a;
+  border-bottom: 2px solid #1e40af;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+
+/* ==========================
+   Inputs
+========================== */
+.task-card input[type="text"] {
+  width: 80%;
+  max-width: 400px;
+  padding: 6px 8px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease;
+}
+
+.task-card input[type="text"]:focus {
+  outline: none;
+  border-color: #1e40af;
+}
+
+/* ==========================
+   Buttons
+========================== */
+.task-card button {
+  padding: 7px 14px;
+  margin-right: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: none;
+  background-color: #1e40af;
+  color: white;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease;
+}
+
+.task-card button:hover:not(:disabled) {
+  background-color: #3b82f6;
+}
+
+.task-card button:disabled {
+  background-color: #a1a1aa;
+  cursor: not-allowed;
+}
+
+/* ==========================
+   Card List
+========================== */
+.card-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.card-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0e7ff;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.card-item:hover {
+  background-color: #c7d2fe;
+}
+
+.selected-card {
+  background-color: #a5b4fc !important;
+  font-weight: 600;
+}
+
+/* ==========================
+   List Items (Filtered/List)
+========================== */
+.task-card ul {
+  margin-top: 10px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.task-card ul li {
+  margin-bottom: 8px;
+  padding: 6px 10px;
+  background-color: #e0f2fe;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s ease;
+}
+
+.task-card ul li:hover {
+  background-color: #bae6fd;
+}
+
+.task-card ul li button {
+  margin: 0;
+  padding: 4px 8px;
+  font-size: 0.85rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #ef4444;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.task-card ul li button:hover {
+  background-color: #b91c1c;
+}
+
+/* ==========================
+   Checkbox List
+========================== */
+.task-card ul li label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.task-card ul li input[type="checkbox"] {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  accent-color: #1e40af;
+}
+
+.task-card ul li.selected {
+  background-color: #c7d2fe;
+  font-weight: 600;
+}
+
+/* ==========================
+   Selected Count Badge
+========================== */
+.selected-count {
+  display: inline-block;
+  background-color: #1e40af;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  margin-left: 10px;
+}

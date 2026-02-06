@@ -1,0 +1,230 @@
+/* ==========================
+   Container
+========================== */
+.ui2-container {
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+  background: #f0f4f8;
+}
+
+/* ==========================
+   Task 11: Grid/List View
+========================== */
+.task11-card {
+  background: #ffe4e6;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.task11-grid {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.task11-list {
+  display: block;
+  margin-top: 10px;
+}
+
+.task11-item {
+  background: #f9a8d4;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  min-width: 80px;
+}
+
+/* ==========================
+   Task 12 & 13: Tabs
+========================== */
+.task12-card {
+  background: #dbeafe;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.task12-tabs button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tab-btn {
+  background: #bfdbfe;
+}
+
+.tab-active {
+  background: #1d4ed8;
+  color: white;
+}
+
+.task12-content {
+  margin-top: 10px;
+  padding: 10px;
+  background: #93c5fd;
+  border-radius: 6px;
+  color: white;
+}
+
+/* ==========================
+   Task 14 & 15: Scroll & Back to Top
+========================== */
+.task14-card {
+  background: #d1fae5;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.scrolled-header {
+  border-left: 5px solid #10b981;
+  padding-left: 10px;
+}
+
+.back-top {
+  margin-top: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  background: #10b981;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.back-top:hover {
+  background: #059669;
+}
+
+/* ==========================
+   Task 16: Add Items
+========================== */
+.task16-card {
+  background: #fef9c3;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.task16-card input {
+  padding: 6px 10px;
+  margin-right: 10px;
+  border-radius: 6px;
+  border: 1px solid #facc15;
+}
+
+.task16-card button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #f59e0b;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.task16-card button:hover {
+  background: #d97706;
+}
+
+/* ==========================
+   Task 17: Remove Items
+========================== */
+.task17-card {
+  background: #fee2e2;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.task17-list li {
+  margin-bottom: 5px;
+}
+
+.task17-list button {
+  margin-left: 8px;
+  padding: 3px 6px;
+  border-radius: 4px;
+  border: none;
+  background: #ef4444;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.task17-list button:hover {
+  background: #b91c1c;
+}
+
+/* ==========================
+   Task 18: Edit Items
+========================== */
+.task18-card {
+  background: #e0f2fe;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.task18-list li {
+  margin-bottom: 5px;
+}
+
+.task18-list button {
+  margin-left: 8px;
+  padding: 3px 6px;
+  border-radius: 4px;
+  border: none;
+  background: #fbbf24;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.task18-list button:hover {
+  background: #b45309;
+}
+
+/* ==========================
+   Task 19: Total Items
+========================== */
+.task19-card {
+  background: #ede9fe;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.task19-card strong {
+  color: #7c3aed;
+}
+
+/* ==========================
+   Task 20: Empty List Message
+========================== */
+.task20-card {
+  background: #f0fdfa;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.empty-msg {
+  font-style: italic;
+  color: #6b7280;
+}
+
+.task20-list li {
+  margin-bottom: 5px;
+  padding: 6px 10px;
+  background: #a7f3d0;
+  border-radius: 6px;
+}
